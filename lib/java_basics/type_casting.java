@@ -5,7 +5,7 @@ package java_basics;
      
     int x = 2;
     float y;
-    double z;
+   
     x = (int)2.8;
     y = (float) 2;
 
