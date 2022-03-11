@@ -27,7 +27,11 @@ class StringMethods {
         
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]);
+            if(i == arr.length - 1){
+                System.out.println("\n");
+            }
         } 
+        
        // String Buffer
        System.out.println("-----------------StringBuffer---------------");
        StringBuffer a = new  StringBuffer("abcd");
@@ -37,6 +41,6 @@ class StringMethods {
        System.out.println(a.length());
        System.out.println(a.capacity());
        System.out.println(a.insert(0, "heallo"));
-       
+
    }
 }
