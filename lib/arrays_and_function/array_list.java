@@ -3,7 +3,7 @@ package arrays_and_function;
 import java.util.ArrayList;
 
 public class array_list {
-    private static boolean equals;
+   
 
     public static void main(String[] args) {
         ArrayList<String> array = new ArrayList<String>();
